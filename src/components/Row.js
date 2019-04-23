@@ -17,9 +17,30 @@ class Row extends Component {
 
 loopThroughChampions() {
    console.log("hello")
-   for(let i = 0; i < Object.keys(champions.champions.data).length; i++) {
-     console.log(champions.champions.data[i])
-   }
+  //  for(let i = 0; i < Object.keys(champions.champions.data).length; i++) {
+  //    console.log(champions.champions.data[i])
+  //  }
+  let data = champions.champions.data
+  for(let i = 0; i < this.props.matchData.length; i++) {
+    console.log(this.props.matchData[i].champion)
+   
+    for(let key in data) {
+      if (data.hasOwnProperty(key)) {
+        // console.log(data[key])
+        if (data[key].key == this.props.matchData[i].champion) {
+          console.log(data[key])
+          return(
+            <div>
+            <h3>{data[key].id}</h3>
+            <img src={`http://ddragon.leagueoflegends.com/cdn/9.8.1/img/champion/${data[key].image.full}`} />
+
+            </div>
+          )
+        }
+
+      }
+    }
+  }
   // console.log(champions.champions.data)
  }
 
@@ -38,7 +59,7 @@ loopThroughChampions() {
     return (
       <div>
         {match}
-        {this.props.matchData && this.loopThroughMatchData()}
+        {/* {this.props.matchData && this.loopThroughMatchData()} */}
         {this.props.matchData && this.loopThroughChampions()}
       </div>
     );
