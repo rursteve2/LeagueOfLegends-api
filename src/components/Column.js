@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import Row from './Row'
-import Info from './Info'
 
 class Column extends Component {
   render() {
     return (
-      <div>
+      <div className="column">
+      <h1>Column</h1>
         <Row matchData={this.props.matchData} 
         championInfo={this.props.championInfo}
         currentMatchPlayers={this.props.currentMatchPlayers}
         />
-        <Info />
       </div>
     );
   }

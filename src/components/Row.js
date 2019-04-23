@@ -9,11 +9,11 @@ class Row extends Component {
 //     return ele.data.
 //   })
 //  }
- loopThroughMatchData() {
-   for(let i = 0; i < this.props.matchData.length; i++) {
-    console.log(this.props.matchData[i].champion)
-   }
- }
+//  loopThroughMatchData() {
+//    for(let i = 0; i < this.props.matchData.length; i++) {
+//     console.log(this.props.matchData[i].champion)
+//    }
+//  }
 
 loopThroughChampions() {
    console.log("hello")
@@ -49,7 +49,7 @@ loopThroughChampions() {
     const { matchData, currentMatchPlayers } = this.props;
     let match = currentMatchPlayers ? currentMatchPlayers.map((ele) => (
       
-      <div>
+      <div className='row'>
         {/* <img src={`http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/${data.}`} /> */}
         {/* <h3>{() => this.loopThroughPlayers()}</h3> */}
         <h3>{ele.player.summonerName}</h3>
@@ -58,7 +58,7 @@ loopThroughChampions() {
     // console.log(this.props.currentMatchPlayers)
     return (
       <div>
-        {match}
+        {/* {match} */}
         {/* {this.props.matchData && this.loopThroughMatchData()} */}
         {this.props.matchData && this.loopThroughChampions()}
       </div>
