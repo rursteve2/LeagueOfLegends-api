@@ -9,8 +9,8 @@ import Info from "./components/Info"
 
 const API_KEY = process.env.REACT_APP_RIOT_API_KEY
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       username: "aphromoo",
       accountId: null,
@@ -27,6 +27,7 @@ class App extends Component {
 
     };
     this.handleChange = this.handleChange.bind(this);
+    this.getMatchData = this.getMatchData.bind(this);
   }
 
   getSomeMatches() {
@@ -95,6 +96,13 @@ class App extends Component {
     this.getUserName();
   }
 
+  setCurrentMatchId = (id) => {
+    this.setState({
+      currentMatchId: id
+    })
+    console.log(this.state.currentMatchId)
+  }
+
   render() {
     let { data } = this.state;
     return (
@@ -106,7 +114,6 @@ class App extends Component {
            data={this.state.data}
            handleChange={this.handleChange}
            username={this.state.username}
-          //  getUserName={this.getUserName}
            setUserName={this.setUserName}
            />
            <div className="container">
@@ -115,6 +122,8 @@ class App extends Component {
             currentMatchPlayers={this.state.currentMatchPlayers}
             championInfo={this.state.championInfo}
             displayMatches={this.state.displayMatches}
+            setCurrentMatchId={this.setCurrentMatchId}
+            getMatchData={this.getMatchData}
             />
             <Info 
             matchData={this.state.matchData} 
