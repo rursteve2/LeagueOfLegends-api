@@ -12,7 +12,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      username: "creistno",
+      username: "aphromoo",
       accountId: null,
       id: null,
       data: null,
@@ -22,10 +22,23 @@ class App extends Component {
       currentMatchId: null,
       currentMatchPlayers:[],
       championInfo: champions,
-      currentMatchDetails: null
+      currentMatchDetails: null,
+      displayMatches: []
 
     };
     this.handleChange = this.handleChange.bind(this);
+  }
+
+  getSomeMatches() {
+    console.log("getting matches!")
+    let matches = []
+    for(let i = 0; i < 10; i++) {
+      matches.push(this.state.matchData[i])
+    }
+    this.setState({
+      displayMatches: matches
+    })
+    console.log(this.state.displayMatches)
   }
 
    async getUserName() {
@@ -47,6 +60,8 @@ class App extends Component {
   async getMatchListData() {
     const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/${this.state.accountId}?api_key=${API_KEY}`)
     const data = response.data
+    console.log(data)
+    console.log(data.matches.splice(0, 5))
     this.setState({
       matchData: data.matches,
       currentMatchId: data.matches[0].gameId
@@ -61,7 +76,9 @@ class App extends Component {
       currentMatchPlayers: data.participantIdentities,
       currentMatchDetails: data
     })
+    this.getSomeMatches()
     console.log(this.state)
+
   }
 
   handleChange(e) {
@@ -97,6 +114,7 @@ class App extends Component {
             matchData={this.state.matchData} 
             currentMatchPlayers={this.state.currentMatchPlayers}
             championInfo={this.state.championInfo}
+            displayMatches={this.state.displayMatches}
             />
             <Info 
             matchData={this.state.matchData} 
