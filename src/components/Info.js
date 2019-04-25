@@ -4,8 +4,10 @@ let arr = [];
 class Info extends Component {
   loopThroughBlueChampions() {
     arr = [];
+    let win;
     let { arr } = this.props;
     let arrBlue = arr.map(el => {
+      win = el.participants.stats.win
       if (el.participants.teamId === 200) {
         return (
           <div className="infodivcontainer">
@@ -27,15 +29,6 @@ class Info extends Component {
             </div>
             </div>
             <p className="playernames">{el.players.player.summonerName}</p>
-            <p className="winorlose"
-              style={{
-                textShadow: el.participants.stats.win
-                  ? "-2px 0 #33d63e, 0 2px #33d63e, 2px 0 #33d63e, 0 -2px #33d63e"
-                  : "-1px 0 #ba2e21, 0 1px #ba2e21, 1px 0 #ba2e21, 0 -1px #ba2e21"
-              }}
-            >
-              {el.participants.stats.win == true ? "Win" : "Lose"}
-            </p>
           </div>
           <h4>
               {el.participants.stats.kills}/{el.participants.stats.deaths}/
@@ -45,15 +38,22 @@ class Info extends Component {
         );
       }
     });
-
+    arrBlue.unshift(<h3 style={{color: "white",
+    textShadow: win
+    ? "-2px 0 #33d63e, 0 2px #33d63e, 2px 0 #33d63e, 0 -2px #33d63e"
+    : "-1px 0 #ba2e21, 0 1px #ba2e21, 1px 0 #ba2e21, 0 -1px #ba2e21"
+  }}>{win ? "Win" : "Lose"}</h3>)
     return arrBlue;
   }
 
   loopThroughRedChampions() {
     arr = [];
     let { arr } = this.props;
+    let win;
     let arrRed = arr.map(el => {
+      
       if (el.participants.teamId != 200) {
+        win = el.participants.stats.win
         return (
           <div className="infodivcontainer">
             <h5>{el.participants.highestAchievedSeasonTier ? el.participants.highestAchievedSeasonTier : "UNRANKED"}</h5>
@@ -74,15 +74,6 @@ class Info extends Component {
             </div>
             </div>
             <p className="playernames">{el.players.player.summonerName}</p>
-            <p className="winorlose"
-              style={{
-                textShadow: el.participants.stats.win
-                  ? "-2px 0 #33d63e, 0 2px #33d63e, 2px 0 #33d63e, 0 -2px #33d63e"
-                  : "-1px 0 #ba2e21, 0 1px #ba2e21, 1px 0 #ba2e21, 0 -1px #ba2e21"
-              }}
-            >
-              {el.participants.stats.win == true ? "Win" : "Lose"}
-            </p>
           </div>
           <h4>
               {el.participants.stats.kills}/{el.participants.stats.deaths}/
@@ -92,7 +83,11 @@ class Info extends Component {
         );
       }
     });
-
+    arrRed.unshift(<h3 style={{color: "white",
+    textShadow: win
+    ? "-2px 0 #33d63e, 0 2px #33d63e, 2px 0 #33d63e, 0 -2px #33d63e"
+    : "-1px 0 #ba2e21, 0 1px #ba2e21, 1px 0 #ba2e21, 0 -1px #ba2e21"
+  }}>{win ? "Win" : "Lose"}</h3>)
     return arrRed;
   }
 
