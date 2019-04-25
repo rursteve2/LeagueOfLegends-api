@@ -1,5 +1,8 @@
-* {
-  /* font-family: 'Cormorant Unicase', serif; */
+html,
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: black;
 }
 .pficon {
   height: 148px;
@@ -10,14 +13,15 @@
 .container {
   display: flex;
   justify-content: space-around;
-  background: rgba(151, 8, 8, .5);
-  /* visibility: hidden; */
-  /* opacity: .5; */
-  /* background-color: blue; */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 .container > * {
   opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+
 }
+
 .row {
   display: flex;
   flex-direction: row;
@@ -32,35 +36,34 @@
   max-height: 100vh;
   overflow: auto;
   background-color: transparent;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
-
+  background: rgba(0, 0, 0, 0.5);
 }
 .info {
-  /* display: inline-flex; */
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  flex: 2;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Lato", sans-serif;
   height: 100%;
   max-height: 100vh;
   overflow: scroll;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Lato', sans-serif;
+  
+}
+.infoinfo {
   display: flex;
+  color: white;
   text-align: center;
-  /* justify-content: space-between;
-  flex-flow: column wrap; */
+  justify-content: space-evenly;
+
 }
 .header {
   background-image: url("http://pluspng.com/img-png/league-of-legends-hd-png-file-lol-new-logo-png-900.png");
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center; 
+  background-position: center;
   text-align: center;
-  font-family: 'Cormorant Unicase', serif;
+  font-family: "Cormorant Unicase", serif;
   background-color: rgb(0, 0, 0);
   text-shadow: -1px 0 #1005a3, 0 1px #1005a3, 1px 0 #1005a3, 0 -1px #1005a3;
   padding-bottom: 50px;
@@ -74,7 +77,7 @@ h1 {
 
 .playernames {
   font-weight: 900;
-  z-index: 1;
+  margin-left: 15px;  
 }
 input {
   font-size: 30px;
@@ -92,7 +95,6 @@ button {
   color: white;
   margin-top: 10px;
   border-radius: 25px;
-
 }
 input {
   border-radius: 10px;
@@ -109,29 +111,79 @@ img {
   border-radius: 50%;
 }
 .rowdiv:hover {
-  background-color: rgba(245, 155, 81, .3);
+  background-color: rgba(245, 155, 81, 0.3);
   cursor: pointer;
 }
 .rowdiv {
-font-size: 30px;
-border-top: 5px dotted white;
+  font-size: 30px;
+  border-top: 5px dotted white;
 }
 h3 {
   margin-top: 4px;
   margin-bottom: 10px;
 }
 .columnheader {
-  text-shadow: -1px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -1px #ffffff;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 .infodiv {
-  /* flex-direction: column; */
-  max-width: 49%;
+  width: 49%;
   border: 1px solid black;
-  /* margin-left: auto;
-  margin-right: auto; */
+  display: inline-block;
 }
 .infoheader {
-  /* display: inline-block;
-  align-content: center; */
   text-align: center;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.infodivleft {
+  display: flex;
+  flex: 1;
+  flex-basis: 100%;
+}
+.infodivright {
+  display: flex;
+  flex: 1;
+  flex-basis: 100%;
+}
+.teamred {
+  color: red;
+}
+.teamblue {
+  color: #3aa8e3;
+}
+.winorlose {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h4 {
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 5px;
+}
+h5 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.infodivcontainer {
+  border-top: 1px solid #f4f4f4;
+}
+.preheader {
+  background-image: url("http://pluspng.com/img-png/league-of-legends-hd-png-file-lol-new-logo-png-900.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.preheader:form {
+  text-align: center;
+  display: inline-block;
+}
+h2 {
+  color: #f4f4f4;
+  margin-top: 0px;
 }
