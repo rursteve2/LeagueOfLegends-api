@@ -23,15 +23,41 @@ class App extends Component {
       currentMatchPlayers:[],
       championInfo: champions,
       currentMatchDetails: null,
-      displayMatches: []
-
+      displayMatches: [],
+      backgroundImg: "Aatrox",
+      allInfo: []
     };
     this.handleChange = this.handleChange.bind(this);
     this.getMatchData = this.getMatchData.bind(this);
   }
 
+async setAllInfo() {
+  let arr=[]
+  console.log(arr)
+  let data = champions.champions.data;
+  for (let i = 0; i < this.state.currentMatchDetails.participants.length; i++) {
+    for (let key in data) {
+      if (data.hasOwnProperty(key)) {
+        if (
+          data[key].key ==
+          this.state.currentMatchDetails.participants[i].championId
+        ) 
+        { 
+          arr.push({'datakey':data[key], 'participants': this.state.currentMatchDetails.participants[i],
+          'players': this.state.currentMatchDetails.participantIdentities[i]
+        }) 
+
+        }
+      }
+    }
+  }
+  await this.setState({
+    allInfo: arr
+  })
+}
+
+
   getSomeMatches() {
-    console.log("getting matches!")
     let matches = []
     for(let i = 0; i < 10; i++) {
       matches.push(this.state.matchData[i])
@@ -39,7 +65,6 @@ class App extends Component {
     this.setState({
       displayMatches: matches
     })
-    console.log(this.state.displayMatches)
   }
 
    async getUserName() {
@@ -61,8 +86,6 @@ class App extends Component {
   async getMatchListData() {
     const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/${this.state.accountId}?api_key=${API_KEY}`)
     const data = response.data
-    console.log(data)
-    console.log(data.matches.splice(0, 5))
     this.setState({
       matchData: data.matches,
       currentMatchId: data.matches[0].gameId
@@ -78,8 +101,8 @@ class App extends Component {
       currentMatchDetails: data
     })
     this.getSomeMatches()
+    this.setAllInfo()
     console.log(this.state)
-
   }
 
   handleChange(e) {
@@ -102,9 +125,15 @@ class App extends Component {
     })
     console.log(this.state.currentMatchId)
   }
+  setBackgroundImage = (name) => {
+    this.setState({
+      backgroundImg: name
+    })
+  }
 
   render() {
     let { data } = this.state;
+    // return !this.state.username ? <Header /> :
     return (
       <div>
         { data ? 
@@ -116,7 +145,12 @@ class App extends Component {
            username={this.state.username}
            setUserName={this.setUserName}
            />
-           <div className="container">
+           <div className="container" style={{
+             backgroundImage: `url(http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${this.state.backgroundImg}_0.jpg)`,
+             backgroundRepeat: 'no-repeat',
+             backgroundPosition: 'center',
+             backgroundSize: "100% auto"
+          }}>
             <Column 
             matchData={this.state.matchData} 
             currentMatchPlayers={this.state.currentMatchPlayers}
@@ -124,12 +158,14 @@ class App extends Component {
             displayMatches={this.state.displayMatches}
             setCurrentMatchId={this.setCurrentMatchId}
             getMatchData={this.getMatchData}
+            setBackgroundImage={this.setBackgroundImage}
             />
             <Info 
             matchData={this.state.matchData} 
             currentMatchPlayers={this.state.currentMatchPlayers}
             championInfo={this.state.championInfo}
             currentMatchDetails={this.state.currentMatchDetails}
+            arr={this.state.allInfo}
             />
            </div>
           </React.Fragment>

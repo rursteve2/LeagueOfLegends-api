@@ -1,18 +1,16 @@
 * {
-  font-family: 'Cormorant Unicase', serif;
+  /* font-family: 'Cormorant Unicase', serif; */
 }
 .pficon {
   height: 148px;
   width: 148px;
   border: 2px solid black;
 }
-#root {
-  /* background-color:#f4f4f4; */
-}
+
 .container {
   display: flex;
   justify-content: space-around;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(151, 8, 8, .5);
   /* visibility: hidden; */
   /* opacity: .5; */
   /* background-color: blue; */
@@ -31,31 +29,41 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  /* height: auto; */
   max-height: 100vh;
   overflow: auto;
   background-color: transparent;
-  /* opacity: 1; */
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+
 }
 .info {
-  display: flex;
+  /* display: inline-flex; */
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
   height: 100%;
   max-height: 100vh;
   overflow: scroll;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  text-align: center;
+  /* justify-content: space-between;
+  flex-flow: column wrap; */
 }
 .header {
   background-image: url("http://pluspng.com/img-png/league-of-legends-hd-png-file-lol-new-logo-png-900.png");
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
   background-position: center; 
-  background-size: 75%;
   text-align: center;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Cormorant Unicase', serif;
   background-color: rgb(0, 0, 0);
   text-shadow: -1px 0 #1005a3, 0 1px #1005a3, 1px 0 #1005a3, 0 -1px #1005a3;
-
+  padding-bottom: 50px;
 }
 h1 {
   font-size: 50px;
@@ -82,7 +90,13 @@ button {
   margin: 0 auto;
   background-color: black;
   color: white;
+  margin-top: 10px;
+  border-radius: 25px;
 
+}
+input {
+  border-radius: 10px;
+  margin-top: 10px;
 }
 .headerhead {
   color: white;
@@ -92,9 +106,32 @@ button {
   width: 50px;
 }
 img {
-  z-index: 1;
+  border-radius: 50%;
 }
 .rowdiv:hover {
-  background-color: rgb(245, 155, 81);
+  background-color: rgba(245, 155, 81, .3);
   cursor: pointer;
+}
+.rowdiv {
+font-size: 30px;
+border-top: 5px dotted white;
+}
+h3 {
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.columnheader {
+  text-shadow: -1px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -1px #ffffff;
+}
+.infodiv {
+  /* flex-direction: column; */
+  max-width: 49%;
+  border: 1px solid black;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.infoheader {
+  /* display: inline-block;
+  align-content: center; */
+  text-align: center;
 }
