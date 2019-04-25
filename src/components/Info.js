@@ -104,11 +104,11 @@ class Info extends Component {
         <div className="infoinfo">
           <div>
             <h3 className="teamred">Team Red</h3>
-            {this.props.currentMatchDetails && this.loopThroughRedChampions()}
+            {this.props.currentMatchDetails ? this.loopThroughRedChampions() : "Loading..."}
           </div>
           <div>
             <h3 className="teamblue">Team Blue</h3>
-            {this.props.currentMatchDetails && this.loopThroughBlueChampions()}
+            {this.props.currentMatchDetails ? this.loopThroughBlueChampions() : "Loading..."}
           </div>
         </div>
       </div>

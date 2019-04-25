@@ -3,12 +3,11 @@ import champions from "../champions";
 
 class Row extends Component {
   changeGameInfo = (e, index, id) => {
-    console.log(id);
     e.stopPropagation();
     let { displayMatches } = this.props;
     this.props.setCurrentMatchId(displayMatches[index].gameId)
     this.props.getMatchData()
-    this.props.setBackgroundImage()
+    this.props.setBackgroundImage(id)
 }
 
   loopThroughChampions() {
