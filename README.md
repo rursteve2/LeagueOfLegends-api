@@ -1,10 +1,13 @@
 # Project 2 - API's
 
 This project will be a website that pulls data from RIOT Games, for a popular game named League Of Legends.
-Enter a username to retrieve information including champions played, past games, and stats from those past games including kill/death/assist statistics. 
+Enter a username to retrieve information including champions played, past games, and stats from those past games including kill/death/assist statistics. On 
 
 # Languages used
 JavaScript with React, HTML, and CSS
+
+# Usage
+To use, enter a valid username in the NA server. If there is no valid API key, create a .env file in the main folder and enter REACT_APP_RIOT_API_KEY={your_api_key_here}
 
 # Wireframes
 <img width="1004" alt="PUBG API wireframe 1" src="https://user-images.githubusercontent.com/47332766/56437817-d8a47980-62ae-11e9-826a-ff76d987e658.png">

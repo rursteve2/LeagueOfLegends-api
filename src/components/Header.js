@@ -2,13 +2,11 @@ import React, { Component } from "react";
 import icons from "../icons";
 
 class Header extends Component {
- loopThroughIcons() {
+  loopThroughIcons() {
     let data = icons.icons.data;
     for (let key in data) {
       if (data.hasOwnProperty(key)) {
         if (data[key].id === this.props.data.profileIconId) {
-            console.log(data[key])
-            console.log(this.props)
           return (
             <div>
               <img
