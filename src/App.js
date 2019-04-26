@@ -155,7 +155,6 @@ class App extends Component {
               summonerLevel={this.state.summonerLevel}
               data={this.state.data}
               handleChange={this.handleChange}
-              username={this.state.username}
               setUserName={this.setUserName}
             />
             <div
