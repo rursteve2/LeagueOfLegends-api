@@ -30,7 +30,7 @@ class Header extends Component {
   render() {
     return (
       <div className={this.props.style}>
-        <h1 className="headerusername">{this.props.username}</h1>
+        <h1 className="headerusername">{this.props.dataname}</h1>
         <h2 className="headerhead">Level: {this.props.summonerLevel}</h2>
         {this.props.data && this.loopThroughIcons()}
         <form onSubmit={e => this.submitUserName(e)}>

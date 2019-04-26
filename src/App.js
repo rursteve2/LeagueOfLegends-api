@@ -151,10 +151,11 @@ class App extends Component {
           <React.Fragment>
             <Header
               style="header"
-              username={this.state.data.name}
+              dataname={this.state.data.name}
               summonerLevel={this.state.summonerLevel}
               data={this.state.data}
               handleChange={this.handleChange}
+              username={this.state.username}
               setUserName={this.setUserName}
             />
             <div
