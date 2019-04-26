@@ -16,3 +16,9 @@ To use, enter a valid username in the NA server. If there is no valid API key, c
 
 # API KEY
 Retrieved from https://developer.riotgames.com/
+
+# Known Bugs
+It will error out if:
+1. An invalid username is entered, or a username that is not from the NA server.
+2. If the player is currently banned.
+3. If the player does not have any match history.
