@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import champions from "../champions";
 
 class Row extends Component {
-  changeGameInfo = (e, index, id) => {
+  async changeGameInfo(e, index, id) {
     e.stopPropagation();
     let { displayMatches } = this.props;
-    this.props.setCurrentMatchId(displayMatches[index].gameId)
-    this.props.getMatchData()
+    await this.props.setCurrentMatchId(displayMatches[index].gameId)
+    await this.props.getMatchData()
     this.props.setBackgroundImage(id)
 }
 

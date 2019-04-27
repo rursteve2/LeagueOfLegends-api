@@ -114,8 +114,8 @@ class App extends Component {
       currentMatchPlayers: data.participantIdentities,
       currentMatchDetails: data
     });
-    this.getSomeMatches();
-    this.setAllInfo();
+    await this.getSomeMatches();
+    await this.setAllInfo();
   }
 
   handleChange(e) {
