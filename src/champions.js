@@ -1,13 +1,13 @@
-// 20190423010943
-// http://ddragon.leagueoflegends.com/cdn/9.8.1/data/en_US/champion.json
+// 20190523144743
+// http://ddragon.leagueoflegends.com/cdn/9.10.1/data/en_US/champion.json
 
 const champions = {
   "type": "champion",
   "format": "standAloneComplex",
-  "version": "9.8.1",
+  "version": "9.10.1",
   "data": {
     "Aatrox": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Aatrox",
       "key": "266",
       "name": "Aatrox",
@@ -35,16 +35,16 @@ const champions = {
       "partype": "Blood Well",
       "stats": {
         "hp": 580,
-        "hpperlevel": 80,
+        "hpperlevel": 90,
         "mp": 0,
         "mpperlevel": 0,
         "movespeed": 345,
-        "armor": 33,
+        "armor": 38,
         "armorperlevel": 3.25,
         "spellblock": 32.1,
         "spellblockperlevel": 1.25,
         "attackrange": 175,
-        "hpregen": 8,
+        "hpregen": 3,
         "hpregenperlevel": 0.75,
         "mpregen": 0,
         "mpregenperlevel": 0,
@@ -57,7 +57,7 @@ const champions = {
       }
     },
     "Ahri": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ahri",
       "key": "103",
       "name": "Ahri",
@@ -107,7 +107,7 @@ const champions = {
       }
     },
     "Akali": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Akali",
       "key": "84",
       "name": "Akali",
@@ -156,7 +156,7 @@ const champions = {
       }
     },
     "Alistar": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Alistar",
       "key": "12",
       "name": "Alistar",
@@ -206,7 +206,7 @@ const champions = {
       }
     },
     "Amumu": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Amumu",
       "key": "32",
       "name": "Amumu",
@@ -256,7 +256,7 @@ const champions = {
       }
     },
     "Anivia": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Anivia",
       "key": "34",
       "name": "Anivia",
@@ -306,7 +306,7 @@ const champions = {
       }
     },
     "Annie": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Annie",
       "key": "1",
       "name": "Annie",
@@ -355,7 +355,7 @@ const champions = {
       }
     },
     "Ashe": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ashe",
       "key": "22",
       "name": "Ashe",
@@ -405,7 +405,7 @@ const champions = {
       }
     },
     "AurelionSol": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "AurelionSol",
       "key": "136",
       "name": "Aurelion Sol",
@@ -454,7 +454,7 @@ const champions = {
       }
     },
     "Azir": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Azir",
       "key": "268",
       "name": "Azir",
@@ -504,7 +504,7 @@ const champions = {
       }
     },
     "Bard": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Bard",
       "key": "432",
       "name": "Bard",
@@ -554,7 +554,7 @@ const champions = {
       }
     },
     "Blitzcrank": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Blitzcrank",
       "key": "53",
       "name": "Blitzcrank",
@@ -604,7 +604,7 @@ const champions = {
       }
     },
     "Brand": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Brand",
       "key": "63",
       "name": "Brand",
@@ -653,7 +653,7 @@ const champions = {
       }
     },
     "Braum": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Braum",
       "key": "201",
       "name": "Braum",
@@ -703,7 +703,7 @@ const champions = {
       }
     },
     "Caitlyn": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Caitlyn",
       "key": "51",
       "name": "Caitlyn",
@@ -752,7 +752,7 @@ const champions = {
       }
     },
     "Camille": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Camille",
       "key": "164",
       "name": "Camille",
@@ -802,7 +802,7 @@ const champions = {
       }
     },
     "Cassiopeia": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Cassiopeia",
       "key": "69",
       "name": "Cassiopeia",
@@ -851,7 +851,7 @@ const champions = {
       }
     },
     "Chogath": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Chogath",
       "key": "31",
       "name": "Cho'Gath",
@@ -901,7 +901,7 @@ const champions = {
       }
     },
     "Corki": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Corki",
       "key": "42",
       "name": "Corki",
@@ -950,7 +950,7 @@ const champions = {
       }
     },
     "Darius": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Darius",
       "key": "122",
       "name": "Darius",
@@ -1000,7 +1000,7 @@ const champions = {
       }
     },
     "Diana": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Diana",
       "key": "131",
       "name": "Diana",
@@ -1050,7 +1050,7 @@ const champions = {
       }
     },
     "Draven": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Draven",
       "key": "119",
       "name": "Draven",
@@ -1099,7 +1099,7 @@ const champions = {
       }
     },
     "DrMundo": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "DrMundo",
       "key": "36",
       "name": "Dr. Mundo",
@@ -1149,7 +1149,7 @@ const champions = {
       }
     },
     "Ekko": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ekko",
       "key": "245",
       "name": "Ekko",
@@ -1192,14 +1192,14 @@ const champions = {
         "mpregenperlevel": 0.8,
         "crit": 0,
         "critperlevel": 0,
-        "attackdamage": 55,
+        "attackdamage": 58,
         "attackdamageperlevel": 3,
         "attackspeedperlevel": 3.3,
         "attackspeed": 0.688
       }
     },
     "Elise": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Elise",
       "key": "60",
       "name": "Elise",
@@ -1249,7 +1249,7 @@ const champions = {
       }
     },
     "Evelynn": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Evelynn",
       "key": "28",
       "name": "Evelynn",
@@ -1299,7 +1299,7 @@ const champions = {
       }
     },
     "Ezreal": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ezreal",
       "key": "81",
       "name": "Ezreal",
@@ -1349,7 +1349,7 @@ const champions = {
       }
     },
     "Fiddlesticks": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Fiddlesticks",
       "key": "9",
       "name": "Fiddlesticks",
@@ -1399,7 +1399,7 @@ const champions = {
       }
     },
     "Fiora": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Fiora",
       "key": "114",
       "name": "Fiora",
@@ -1449,7 +1449,7 @@ const champions = {
       }
     },
     "Fizz": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Fizz",
       "key": "105",
       "name": "Fizz",
@@ -1499,7 +1499,7 @@ const champions = {
       }
     },
     "Galio": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Galio",
       "key": "3",
       "name": "Galio",
@@ -1549,7 +1549,7 @@ const champions = {
       }
     },
     "Gangplank": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Gangplank",
       "key": "41",
       "name": "Gangplank",
@@ -1598,7 +1598,7 @@ const champions = {
       }
     },
     "Garen": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Garen",
       "key": "86",
       "name": "Garen",
@@ -1648,7 +1648,7 @@ const champions = {
       }
     },
     "Gnar": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Gnar",
       "key": "150",
       "name": "Gnar",
@@ -1698,7 +1698,7 @@ const champions = {
       }
     },
     "Gragas": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Gragas",
       "key": "79",
       "name": "Gragas",
@@ -1748,7 +1748,7 @@ const champions = {
       }
     },
     "Graves": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Graves",
       "key": "104",
       "name": "Graves",
@@ -1797,7 +1797,7 @@ const champions = {
       }
     },
     "Hecarim": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Hecarim",
       "key": "120",
       "name": "Hecarim",
@@ -1847,7 +1847,7 @@ const champions = {
       }
     },
     "Heimerdinger": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Heimerdinger",
       "key": "74",
       "name": "Heimerdinger",
@@ -1897,7 +1897,7 @@ const champions = {
       }
     },
     "Illaoi": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Illaoi",
       "key": "420",
       "name": "Illaoi",
@@ -1947,7 +1947,7 @@ const champions = {
       }
     },
     "Irelia": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Irelia",
       "key": "39",
       "name": "Irelia",
@@ -1997,7 +1997,7 @@ const champions = {
       }
     },
     "Ivern": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ivern",
       "key": "427",
       "name": "Ivern",
@@ -2047,7 +2047,7 @@ const champions = {
       }
     },
     "Janna": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Janna",
       "key": "40",
       "name": "Janna",
@@ -2097,7 +2097,7 @@ const champions = {
       }
     },
     "JarvanIV": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "JarvanIV",
       "key": "59",
       "name": "Jarvan IV",
@@ -2124,9 +2124,9 @@ const champions = {
       ],
       "partype": "Mana",
       "stats": {
-        "hp": 571.2,
+        "hp": 570,
         "hpperlevel": 90,
-        "mp": 302.2,
+        "mp": 300,
         "mpperlevel": 40,
         "movespeed": 340,
         "armor": 34,
@@ -2136,7 +2136,7 @@ const champions = {
         "attackrange": 175,
         "hpregen": 8,
         "hpregenperlevel": 0.7,
-        "mpregen": 6.756,
+        "mpregen": 6.5,
         "mpregenperlevel": 0.45,
         "crit": 0,
         "critperlevel": 0,
@@ -2147,7 +2147,7 @@ const champions = {
       }
     },
     "Jax": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Jax",
       "key": "24",
       "name": "Jax",
@@ -2197,7 +2197,7 @@ const champions = {
       }
     },
     "Jayce": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Jayce",
       "key": "126",
       "name": "Jayce",
@@ -2247,7 +2247,7 @@ const champions = {
       }
     },
     "Jhin": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Jhin",
       "key": "202",
       "name": "Jhin",
@@ -2297,7 +2297,7 @@ const champions = {
       }
     },
     "Jinx": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Jinx",
       "key": "222",
       "name": "Jinx",
@@ -2346,7 +2346,7 @@ const champions = {
       }
     },
     "Kaisa": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kaisa",
       "key": "145",
       "name": "Kai'Sa",
@@ -2395,7 +2395,7 @@ const champions = {
       }
     },
     "Kalista": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kalista",
       "key": "429",
       "name": "Kalista",
@@ -2444,7 +2444,7 @@ const champions = {
       }
     },
     "Karma": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Karma",
       "key": "43",
       "name": "Karma",
@@ -2494,7 +2494,7 @@ const champions = {
       }
     },
     "Karthus": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Karthus",
       "key": "30",
       "name": "Karthus",
@@ -2543,7 +2543,7 @@ const champions = {
       }
     },
     "Kassadin": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kassadin",
       "key": "38",
       "name": "Kassadin",
@@ -2593,7 +2593,7 @@ const champions = {
       }
     },
     "Katarina": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Katarina",
       "key": "55",
       "name": "Katarina",
@@ -2643,7 +2643,7 @@ const champions = {
       }
     },
     "Kayle": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kayle",
       "key": "10",
       "name": "Kayle",
@@ -2693,7 +2693,7 @@ const champions = {
       }
     },
     "Kayn": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kayn",
       "key": "141",
       "name": "Kayn",
@@ -2743,7 +2743,7 @@ const champions = {
       }
     },
     "Kennen": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kennen",
       "key": "85",
       "name": "Kennen",
@@ -2793,7 +2793,7 @@ const champions = {
       }
     },
     "Khazix": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Khazix",
       "key": "121",
       "name": "Kha'Zix",
@@ -2842,7 +2842,7 @@ const champions = {
       }
     },
     "Kindred": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kindred",
       "key": "203",
       "name": "Kindred",
@@ -2891,7 +2891,7 @@ const champions = {
       }
     },
     "Kled": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Kled",
       "key": "240",
       "name": "Kled",
@@ -2941,7 +2941,7 @@ const champions = {
       }
     },
     "KogMaw": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "KogMaw",
       "key": "96",
       "name": "Kog'Maw",
@@ -2991,7 +2991,7 @@ const champions = {
       }
     },
     "Leblanc": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Leblanc",
       "key": "7",
       "name": "LeBlanc",
@@ -3041,7 +3041,7 @@ const champions = {
       }
     },
     "LeeSin": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "LeeSin",
       "key": "64",
       "name": "Lee Sin",
@@ -3091,7 +3091,7 @@ const champions = {
       }
     },
     "Leona": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Leona",
       "key": "89",
       "name": "Leona",
@@ -3141,7 +3141,7 @@ const champions = {
       }
     },
     "Lissandra": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Lissandra",
       "key": "127",
       "name": "Lissandra",
@@ -3190,7 +3190,7 @@ const champions = {
       }
     },
     "Lucian": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Lucian",
       "key": "236",
       "name": "Lucian",
@@ -3239,7 +3239,7 @@ const champions = {
       }
     },
     "Lulu": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Lulu",
       "key": "117",
       "name": "Lulu",
@@ -3289,7 +3289,7 @@ const champions = {
       }
     },
     "Lux": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Lux",
       "key": "99",
       "name": "Lux",
@@ -3339,7 +3339,7 @@ const champions = {
       }
     },
     "Malphite": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Malphite",
       "key": "54",
       "name": "Malphite",
@@ -3389,7 +3389,7 @@ const champions = {
       }
     },
     "Malzahar": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Malzahar",
       "key": "90",
       "name": "Malzahar",
@@ -3439,7 +3439,7 @@ const champions = {
       }
     },
     "Maokai": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Maokai",
       "key": "57",
       "name": "Maokai",
@@ -3489,7 +3489,7 @@ const champions = {
       }
     },
     "MasterYi": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "MasterYi",
       "key": "11",
       "name": "Master Yi",
@@ -3539,7 +3539,7 @@ const champions = {
       }
     },
     "MissFortune": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "MissFortune",
       "key": "21",
       "name": "Miss Fortune",
@@ -3588,7 +3588,7 @@ const champions = {
       }
     },
     "MonkeyKing": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "MonkeyKing",
       "key": "62",
       "name": "Wukong",
@@ -3638,7 +3638,7 @@ const champions = {
       }
     },
     "Mordekaiser": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Mordekaiser",
       "key": "82",
       "name": "Mordekaiser",
@@ -3687,7 +3687,7 @@ const champions = {
       }
     },
     "Morgana": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Morgana",
       "key": "25",
       "name": "Morgana",
@@ -3737,7 +3737,7 @@ const champions = {
       }
     },
     "Nami": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Nami",
       "key": "267",
       "name": "Nami",
@@ -3787,7 +3787,7 @@ const champions = {
       }
     },
     "Nasus": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Nasus",
       "key": "75",
       "name": "Nasus",
@@ -3837,7 +3837,7 @@ const champions = {
       }
     },
     "Nautilus": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Nautilus",
       "key": "111",
       "name": "Nautilus",
@@ -3887,7 +3887,7 @@ const champions = {
       }
     },
     "Neeko": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Neeko",
       "key": "518",
       "name": "Neeko",
@@ -3937,7 +3937,7 @@ const champions = {
       }
     },
     "Nidalee": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Nidalee",
       "key": "76",
       "name": "Nidalee",
@@ -3987,7 +3987,7 @@ const champions = {
       }
     },
     "Nocturne": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Nocturne",
       "key": "56",
       "name": "Nocturne",
@@ -4037,7 +4037,7 @@ const champions = {
       }
     },
     "Nunu": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Nunu",
       "key": "20",
       "name": "Nunu & Willump",
@@ -4087,7 +4087,7 @@ const champions = {
       }
     },
     "Olaf": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Olaf",
       "key": "2",
       "name": "Olaf",
@@ -4137,7 +4137,7 @@ const champions = {
       }
     },
     "Orianna": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Orianna",
       "key": "61",
       "name": "Orianna",
@@ -4187,7 +4187,7 @@ const champions = {
       }
     },
     "Ornn": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ornn",
       "key": "516",
       "name": "Ornn",
@@ -4237,7 +4237,7 @@ const champions = {
       }
     },
     "Pantheon": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Pantheon",
       "key": "80",
       "name": "Pantheon",
@@ -4287,7 +4287,7 @@ const champions = {
       }
     },
     "Poppy": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Poppy",
       "key": "78",
       "name": "Poppy",
@@ -4337,7 +4337,7 @@ const champions = {
       }
     },
     "Pyke": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Pyke",
       "key": "555",
       "name": "Pyke",
@@ -4387,7 +4387,7 @@ const champions = {
       }
     },
     "Quinn": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Quinn",
       "key": "133",
       "name": "Quinn",
@@ -4437,7 +4437,7 @@ const champions = {
       }
     },
     "Rakan": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Rakan",
       "key": "497",
       "name": "Rakan",
@@ -4463,15 +4463,15 @@ const champions = {
       ],
       "partype": "Mana",
       "stats": {
-        "hp": 480,
+        "hp": 540,
         "hpperlevel": 85,
         "mp": 315,
         "mpperlevel": 50,
         "movespeed": 335,
-        "armor": 29,
+        "armor": 32,
         "armorperlevel": 3.9,
-        "spellblock": 30,
-        "spellblockperlevel": 0.5,
+        "spellblock": 32.1,
+        "spellblockperlevel": 1.25,
         "attackrange": 300,
         "hpregen": 5,
         "hpregenperlevel": 0.5,
@@ -4479,14 +4479,14 @@ const champions = {
         "mpregenperlevel": 0.5,
         "crit": 0,
         "critperlevel": 0,
-        "attackdamage": 70,
+        "attackdamage": 62,
         "attackdamageperlevel": 3.5,
         "attackspeedperlevel": 3,
         "attackspeed": 0.635
       }
     },
     "Rammus": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Rammus",
       "key": "33",
       "name": "Rammus",
@@ -4536,7 +4536,7 @@ const champions = {
       }
     },
     "RekSai": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "RekSai",
       "key": "421",
       "name": "Rek'Sai",
@@ -4578,14 +4578,14 @@ const champions = {
         "mpregenperlevel": 0,
         "crit": 0,
         "critperlevel": 0,
-        "attackdamage": 65.5,
-        "attackdamageperlevel": 3.35,
+        "attackdamage": 64,
+        "attackdamageperlevel": 3,
         "attackspeedperlevel": 2,
         "attackspeed": 0.667
       }
     },
     "Renekton": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Renekton",
       "key": "58",
       "name": "Renekton",
@@ -4635,7 +4635,7 @@ const champions = {
       }
     },
     "Rengar": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Rengar",
       "key": "107",
       "name": "Rengar",
@@ -4685,7 +4685,7 @@ const champions = {
       }
     },
     "Riven": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Riven",
       "key": "92",
       "name": "Riven",
@@ -4735,7 +4735,7 @@ const champions = {
       }
     },
     "Rumble": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Rumble",
       "key": "68",
       "name": "Rumble",
@@ -4785,7 +4785,7 @@ const champions = {
       }
     },
     "Ryze": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ryze",
       "key": "13",
       "name": "Ryze",
@@ -4835,7 +4835,7 @@ const champions = {
       }
     },
     "Sejuani": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Sejuani",
       "key": "113",
       "name": "Sejuani",
@@ -4885,7 +4885,7 @@ const champions = {
       }
     },
     "Shaco": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Shaco",
       "key": "35",
       "name": "Shaco",
@@ -4934,7 +4934,7 @@ const champions = {
       }
     },
     "Shen": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Shen",
       "key": "98",
       "name": "Shen",
@@ -4978,12 +4978,12 @@ const champions = {
         "critperlevel": 0,
         "attackdamage": 60,
         "attackdamageperlevel": 3,
-        "attackspeedperlevel": 2,
+        "attackspeedperlevel": 3,
         "attackspeed": 0.751
       }
     },
     "Shyvana": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Shyvana",
       "key": "102",
       "name": "Shyvana",
@@ -5033,7 +5033,7 @@ const champions = {
       }
     },
     "Singed": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Singed",
       "key": "27",
       "name": "Singed",
@@ -5083,7 +5083,7 @@ const champions = {
       }
     },
     "Sion": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Sion",
       "key": "14",
       "name": "Sion",
@@ -5133,7 +5133,7 @@ const champions = {
       }
     },
     "Sivir": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Sivir",
       "key": "15",
       "name": "Sivir",
@@ -5182,7 +5182,7 @@ const champions = {
       }
     },
     "Skarner": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Skarner",
       "key": "72",
       "name": "Skarner",
@@ -5232,7 +5232,7 @@ const champions = {
       }
     },
     "Sona": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Sona",
       "key": "37",
       "name": "Sona",
@@ -5282,7 +5282,7 @@ const champions = {
       }
     },
     "Soraka": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Soraka",
       "key": "16",
       "name": "Soraka",
@@ -5332,7 +5332,7 @@ const champions = {
       }
     },
     "Swain": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Swain",
       "key": "50",
       "name": "Swain",
@@ -5382,7 +5382,7 @@ const champions = {
       }
     },
     "Sylas": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Sylas",
       "key": "517",
       "name": "Sylas",
@@ -5432,7 +5432,7 @@ const champions = {
       }
     },
     "Syndra": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Syndra",
       "key": "134",
       "name": "Syndra",
@@ -5482,7 +5482,7 @@ const champions = {
       }
     },
     "TahmKench": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "TahmKench",
       "key": "223",
       "name": "Tahm Kench",
@@ -5509,11 +5509,11 @@ const champions = {
       ],
       "partype": "Mana",
       "stats": {
-        "hp": 540,
-        "hpperlevel": 102,
+        "hp": 600,
+        "hpperlevel": 100,
         "mp": 325,
         "mpperlevel": 40,
-        "movespeed": 335,
+        "movespeed": 345,
         "armor": 47,
         "armorperlevel": 3.5,
         "spellblock": 32.1,
@@ -5532,7 +5532,7 @@ const champions = {
       }
     },
     "Taliyah": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Taliyah",
       "key": "163",
       "name": "Taliyah",
@@ -5582,7 +5582,7 @@ const champions = {
       }
     },
     "Talon": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Talon",
       "key": "91",
       "name": "Talon",
@@ -5631,7 +5631,7 @@ const champions = {
       }
     },
     "Taric": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Taric",
       "key": "44",
       "name": "Taric",
@@ -5681,7 +5681,7 @@ const champions = {
       }
     },
     "Teemo": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Teemo",
       "key": "17",
       "name": "Teemo",
@@ -5731,7 +5731,7 @@ const champions = {
       }
     },
     "Thresh": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Thresh",
       "key": "412",
       "name": "Thresh",
@@ -5781,7 +5781,7 @@ const champions = {
       }
     },
     "Tristana": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Tristana",
       "key": "18",
       "name": "Tristana",
@@ -5831,7 +5831,7 @@ const champions = {
       }
     },
     "Trundle": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Trundle",
       "key": "48",
       "name": "Trundle",
@@ -5881,7 +5881,7 @@ const champions = {
       }
     },
     "Tryndamere": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Tryndamere",
       "key": "23",
       "name": "Tryndamere",
@@ -5931,7 +5931,7 @@ const champions = {
       }
     },
     "TwistedFate": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "TwistedFate",
       "key": "4",
       "name": "Twisted Fate",
@@ -5980,7 +5980,7 @@ const champions = {
       }
     },
     "Twitch": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Twitch",
       "key": "29",
       "name": "Twitch",
@@ -6030,7 +6030,7 @@ const champions = {
       }
     },
     "Udyr": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Udyr",
       "key": "77",
       "name": "Udyr",
@@ -6080,7 +6080,7 @@ const champions = {
       }
     },
     "Urgot": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Urgot",
       "key": "6",
       "name": "Urgot",
@@ -6130,7 +6130,7 @@ const champions = {
       }
     },
     "Varus": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Varus",
       "key": "110",
       "name": "Varus",
@@ -6180,7 +6180,7 @@ const champions = {
       }
     },
     "Vayne": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Vayne",
       "key": "67",
       "name": "Vayne",
@@ -6230,7 +6230,7 @@ const champions = {
       }
     },
     "Veigar": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Veigar",
       "key": "45",
       "name": "Veigar",
@@ -6279,7 +6279,7 @@ const champions = {
       }
     },
     "Velkoz": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Velkoz",
       "key": "161",
       "name": "Vel'Koz",
@@ -6328,7 +6328,7 @@ const champions = {
       }
     },
     "Vi": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Vi",
       "key": "254",
       "name": "Vi",
@@ -6378,7 +6378,7 @@ const champions = {
       }
     },
     "Viktor": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Viktor",
       "key": "112",
       "name": "Viktor",
@@ -6427,7 +6427,7 @@ const champions = {
       }
     },
     "Vladimir": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Vladimir",
       "key": "8",
       "name": "Vladimir",
@@ -6476,7 +6476,7 @@ const champions = {
       }
     },
     "Volibear": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Volibear",
       "key": "106",
       "name": "Volibear",
@@ -6526,7 +6526,7 @@ const champions = {
       }
     },
     "Warwick": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Warwick",
       "key": "19",
       "name": "Warwick",
@@ -6576,7 +6576,7 @@ const champions = {
       }
     },
     "Xayah": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Xayah",
       "key": "498",
       "name": "Xayah",
@@ -6625,7 +6625,7 @@ const champions = {
       }
     },
     "Xerath": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Xerath",
       "key": "101",
       "name": "Xerath",
@@ -6674,7 +6674,7 @@ const champions = {
       }
     },
     "XinZhao": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "XinZhao",
       "key": "5",
       "name": "Xin Zhao",
@@ -6724,7 +6724,7 @@ const champions = {
       }
     },
     "Yasuo": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Yasuo",
       "key": "157",
       "name": "Yasuo",
@@ -6774,7 +6774,7 @@ const champions = {
       }
     },
     "Yorick": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Yorick",
       "key": "83",
       "name": "Yorick",
@@ -6823,8 +6823,58 @@ const champions = {
         "attackspeed": 0.625
       }
     },
+    "Yuumi": {
+      "version": "9.10.1",
+      "id": "Yuumi",
+      "key": "350",
+      "name": "Yuumi",
+      "title": "the Magical Cat",
+      "blurb": "A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for...",
+      "info": {
+        "attack": 5,
+        "defense": 1,
+        "magic": 8,
+        "difficulty": 2
+      },
+      "image": {
+        "full": "Yuumi.png",
+        "sprite": "champion4.png",
+        "group": "champion",
+        "x": 336,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 432.36,
+        "hpperlevel": 70,
+        "mp": 400,
+        "mpperlevel": 45,
+        "movespeed": 330,
+        "armor": 25,
+        "armorperlevel": 3,
+        "spellblock": 25,
+        "spellblockperlevel": 0.3,
+        "attackrange": 500,
+        "hpregen": 7,
+        "hpregenperlevel": 0.55,
+        "mpregen": 7.5,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 55,
+        "attackdamageperlevel": 3.1,
+        "attackspeedperlevel": 1,
+        "attackspeed": 0.625
+      }
+    },
     "Zac": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Zac",
       "key": "154",
       "name": "Zac",
@@ -6840,7 +6890,7 @@ const champions = {
         "full": "Zac.png",
         "sprite": "champion4.png",
         "group": "champion",
-        "x": 336,
+        "x": 384,
         "y": 48,
         "w": 48,
         "h": 48
@@ -6874,7 +6924,7 @@ const champions = {
       }
     },
     "Zed": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Zed",
       "key": "238",
       "name": "Zed",
@@ -6890,7 +6940,7 @@ const champions = {
         "full": "Zed.png",
         "sprite": "champion4.png",
         "group": "champion",
-        "x": 384,
+        "x": 432,
         "y": 48,
         "w": 48,
         "h": 48
@@ -6923,7 +6973,7 @@ const champions = {
       }
     },
     "Ziggs": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Ziggs",
       "key": "115",
       "name": "Ziggs",
@@ -6939,8 +6989,8 @@ const champions = {
         "full": "Ziggs.png",
         "sprite": "champion4.png",
         "group": "champion",
-        "x": 432,
-        "y": 48,
+        "x": 0,
+        "y": 96,
         "w": 48,
         "h": 48
       },
@@ -6972,7 +7022,7 @@ const champions = {
       }
     },
     "Zilean": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Zilean",
       "key": "26",
       "name": "Zilean",
@@ -6988,7 +7038,7 @@ const champions = {
         "full": "Zilean.png",
         "sprite": "champion4.png",
         "group": "champion",
-        "x": 0,
+        "x": 48,
         "y": 96,
         "w": 48,
         "h": 48
@@ -7022,7 +7072,7 @@ const champions = {
       }
     },
     "Zoe": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Zoe",
       "key": "142",
       "name": "Zoe",
@@ -7038,7 +7088,7 @@ const champions = {
         "full": "Zoe.png",
         "sprite": "champion4.png",
         "group": "champion",
-        "x": 48,
+        "x": 96,
         "y": 96,
         "w": 48,
         "h": 48
@@ -7072,7 +7122,7 @@ const champions = {
       }
     },
     "Zyra": {
-      "version": "9.8.1",
+      "version": "9.10.1",
       "id": "Zyra",
       "key": "143",
       "name": "Zyra",
@@ -7088,7 +7138,7 @@ const champions = {
         "full": "Zyra.png",
         "sprite": "champion4.png",
         "group": "champion",
-        "x": 96,
+        "x": 144,
         "y": 96,
         "w": 48,
         "h": 48
@@ -7123,5 +7173,3 @@ const champions = {
     }
   }
 }
-
-export default { champions }
