@@ -129,9 +129,9 @@ class App extends Component {
     await this.getUserName();
   };
 
-  componentWillMount() {
-    this.getUserName();
-  }
+  // componentWillMount() {
+  //   this.getUserName();
+  // }
 
   setCurrentMatchId = id => {
     this.setState({
@@ -159,6 +159,7 @@ class App extends Component {
               handleChange={this.handleChange}
               username={this.state.username}
               setUserName={this.setUserName}
+              getUserName={this.getUserName}
             />
             <div
               className="container"
