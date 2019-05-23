@@ -86,7 +86,9 @@ class App extends Component {
         summonerLevel: data.summonerLevel
       });
       await this.getMatchListData();
-    } catch (e) {}
+    } catch (e) {
+      alert("Username invalid or no match data for user.")
+    }
   }
 
   async getMatchListData() {
