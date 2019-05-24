@@ -33,7 +33,7 @@ class App extends Component {
 
   async setAllInfo() {
     let arr = [];
-    let data = champions.champions.data;
+    let data = champions.data;
     for (
       let i = 0;
       i < this.state.currentMatchDetails.participants.length;
@@ -87,7 +87,7 @@ class App extends Component {
       });
       await this.getMatchListData();
     } catch (e) {
-      alert("Username invalid or no match data for user.")
+      // alert("Username invalid or no match data for user.")
     }
   }
 
@@ -129,9 +129,9 @@ class App extends Component {
     await this.getUserName();
   };
 
-  // componentWillMount() {
-  //   this.getUserName();
-  // }
+  componentWillMount() {
+    this.getUserName();
+  }
 
   setCurrentMatchId = id => {
     this.setState({

@@ -7173,3 +7173,4 @@ const champions = {
     }
   }
 }
+export default champions

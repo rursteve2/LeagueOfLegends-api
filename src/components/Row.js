@@ -11,7 +11,7 @@ class Row extends Component {
 }
 
   loopThroughChampions() {
-    let data = champions.champions.data;
+    let data = champions.data;
 
     return this.props.displayMatches.map((el, i) => {
       for (let key in data) {

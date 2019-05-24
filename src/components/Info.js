@@ -20,7 +20,7 @@ class Info extends Component {
          <div>
           <img
               className="selectedgameicon"
-              src={`http://ddragon.leagueoflegends.com/cdn/9.8.1/img/champion/${
+              src={`http://ddragon.leagueoflegends.com/cdn/9.10.1/img/champion/${
                 el.datakey.image.full
               }`}
               alt=""
@@ -65,7 +65,7 @@ class Info extends Component {
          <div>
           <img
               className="selectedgameicon"
-              src={`http://ddragon.leagueoflegends.com/cdn/9.8.1/img/champion/${
+              src={`http://ddragon.leagueoflegends.com/cdn/9.10.1/img/champion/${
                 el.datakey.image.full
               }`}
               alt=""

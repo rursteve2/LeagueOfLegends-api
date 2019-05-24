@@ -3,7 +3,7 @@ import icons from "../icons";
 
 class Header extends Component {
   loopThroughIcons() {
-    let data = icons.icons.data;
+    let data = icons.data;
     for (let key in data) {
       if (data.hasOwnProperty(key)) {
         if (data[key].id === this.props.data.profileIconId) {
@@ -11,7 +11,7 @@ class Header extends Component {
             <div>
               <img
                 className="pficon"
-                src={`http://ddragon.leagueoflegends.com/cdn/9.8.1/img/profileicon/${
+                src={`http://ddragon.leagueoflegends.com/cdn/9.10.1/img/profileicon/${
                   data[key].image.full
                 }`}
                 alt=""
