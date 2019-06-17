@@ -1,7 +1,7 @@
 # Project 2 - API's
 
-This project will be a website that pulls data from RIOT Games, for a popular game named League Of Legends.
-Enter a username to retrieve information including champions played, past games, and stats from those past games including kill/death/assist statistics. On 
+This is a website that pulls data from RIOT Games, for a popular game named League Of Legends.
+Enter a username to retrieve information including champions played, past games, and stats from those past games including kill/death/assist statistics.
 
 # Languages used
 JavaScript with React, HTML, and CSS
@@ -22,3 +22,6 @@ It will error out if:
 1. An invalid username is entered, or a username that is not from the NA server.
 2. If the player is currently banned.
 3. If the player does not have any match history.
+
+# Deployment
+Deployed at https://sei-lol-api.herokuapp.com/

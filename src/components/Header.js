@@ -31,7 +31,7 @@ class Header extends Component {
     return (
       <div className={this.props.style}>
         <h1 className="headerusername">{this.props.dataname}</h1>
-        <h2 className="headerhead">Level: {this.props.summonerLevel}</h2>
+        <h2 className="headerhead">{this.props.summonerLevel ? "Level:" : null} {this.props.summonerLevel}</h2>
         {this.props.data && this.loopThroughIcons()}
         <form onSubmit={e => this.submitUserName(e)}>
           <input
