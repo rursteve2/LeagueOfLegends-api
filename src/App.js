@@ -87,11 +87,12 @@ class App extends Component {
       });
       await this.getMatchListData();
     } catch (e) {
-      // alert("Username invalid or no match data for user.")
+      alert("Username invalid or no match data for user.")
     }
+  // } 
   }
 
-  async getMatchListData() {
+  getMatchListData = async () => {
     const response = await axios.get(
       `https://cors-anywhere.herokuapp.com/https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/${
         this.state.accountId
@@ -129,9 +130,9 @@ class App extends Component {
     await this.getUserName();
   };
 
-  componentWillMount() {
-    this.getUserName();
-  }
+  // componentWillMount() {
+  //   this.getUserName();
+  // }
 
   setCurrentMatchId = id => {
     this.setState({
@@ -146,7 +147,6 @@ class App extends Component {
 
   render() {
     let { data } = this.state;
-    // return !this.state.username ? <Header /> :
     return (
       <React.Fragment>
         {data ? (
@@ -192,6 +192,7 @@ class App extends Component {
           </React.Fragment>
         ) : (
           <Header
+            className="before"
             style="preheader"
             summonerLevel={this.state.summonerLevel}
             data={this.state.data}
